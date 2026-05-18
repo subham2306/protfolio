@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Subham Sahoo | Penetration Tester</title>
+
+    <meta name="description"
+        content="Subham Sahoo - Penetration Tester, Ethical Hacker, Cybersecurity Researcher Portfolio">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <!-- NETWORK BACKGROUND -->
+
+    <canvas id="network"></canvas>
+
+    <!-- SOCIAL BAR -->
+
+    <div class="social-bar">
+
+        <a href="https://github.com/subham2306/" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/subham-sahoo2306/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://medium.com/@subhamsahoo2307" target="_blank">
+            <i class="fab fa-medium"></i>
+        </a>
+
+        <a href="https://www.instagram.com/s.subham_2306" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/916370414783" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#certs">CERTS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#articles">ARTICLES</a></li>
+
+            </ul>
+
+        </nav>
+
+        <button id="theme-toggle">
+
+            <i class="fa-solid fa-sun"></i>
+
+        </button>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">
+
+                CYBERSECURITY ENGINEER
+
+            </p>
+
+            <h1>
+
+                Subham Sahoo
+
+            </h1>
+
+            <h2>
+
+                <span id="typing"></span>
+
+            </h2>
+
+            <p class="hero-text">
+
+                Passionate Penetration Tester focused on Web Application Security,
+                Active Directory Exploitation, Network Penetration Testing,
+                Vulnerability Assessment, Red Team Operations,
+                Malware Analysis, and Offensive Security Research.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="resume.pdf" target="_blank" class="btn">
+
+                    Resume
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+                <a href="mailto:subhamsahoo2306@gmail.com" class="btn">
+
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about reveal" id="about">
+
+        <h2 class="section-title">
+
+            About Me
+
+        </h2>
+
+        <div class="about-card">
+
+            <p>
+
+                I am a dedicated Cybersecurity Enthusiast and Penetration Tester with hands-on experience in
+                Vulnerability Assessment and Penetration Testing (VAPT), Web Application Security,
+                Network Security, Ethical Hacking, SIEM Monitoring, and Threat Detection.
+
+                I have worked on multiple cybersecurity projects including Web VAPT Tools,
+                Intrusion Detection Systems, Honeypots, SIEM Solutions, and Phishing Detection Platforms.
+
+                My expertise includes OWASP Top 10, Linux, Python Scripting,
+                Network Analysis, Security Automation, and industry-standard tools such as
+                Burp Suite, Nmap, Metasploit, Wireshark, SQLMap, Nessus, Gobuster, and Splunk.
+
+                I regularly publish cybersecurity research and walkthroughs on Medium,
+                participate in CTF challenges, and continuously improve my offensive
+                and defensive security skills.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="skills reveal" id="skills">
+
+        <h2 class="section-title">
+
+            Penetration Testing Skills
+
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-binoculars"></i>
+
+                <h3>Reconnaissance</h3>
+
+                <p>
+                    OSINT, asset discovery, and target enumeration.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>Web Application Testing</h3>
+
+                <p>
+                    SQLi, XSS, authentication security testing.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-building-shield"></i>
+
+                <h3>Active Directory Security</h3>
+
+                <p>
+                    AD enumeration and privilege escalation techniques.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-network-wired"></i>
+
+                <h3>Network Penetration Testing</h3>
+
+                <p>
+                    Scanning, exploitation, and vulnerability analysis.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-user-secret"></i>
+
+                <h3>Post Exploitation</h3>
+
+                <p>
+                    Persistence, lateral movement, and credential analysis.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-robot"></i>
+
+                <h3>Red Team Automation</h3>
+
+                <p>
+                    Python, Bash, and PowerShell scripting automation.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-virus"></i>
+
+                <h3>Malware Analysis</h3>
+
+                <p>
+                    Static and dynamic analysis of suspicious files.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Vulnerability Assessment</h3>
+
+                <p>
+                    Identifying and validating security weaknesses.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-cloud"></i>
+
+                <h3>Cloud Security</h3>
+
+                <p>
+                    IAM security and cloud configuration assessment.
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fa-solid fa-crosshairs"></i>
+
+                <h3>Threat Emulation</h3>
+
+                <p>
+                    Simulating attacker techniques in lab environments.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CERTIFICATES -->
+
+    <section class="certs reveal" id="certs">
+
+        <h2 class="section-title">
+
+            Certifications
+
+        </h2>
+
+        <div class="cert-grid">
+
+            <!-- eJPT -->
+
+            <div class="cert-card">
+
+                <img src="certificates/ejpt.jpg">
+
+                <h3>eJPT</h3>
+
+                <p>INE / eLearnSecurity</p>
+
+            </div>
+
+            <!-- Google Cybersecurity -->
+
+            <div class="cert-card">
+
+                <img src="certificates/google-cybersecurity.jpg">
+
+                <h3>Google Cybersecurity</h3>
+
+                <p>Google Professional Certificate</p>
+
+            </div>
+
+            <!-- CEH -->
+
+            <div class="cert-card">
+
+                <img src="certificates/ceh.jpg">
+
+                <h3>Certified Ethical Hacker</h3>
+
+                <p>EC-Council</p>
+
+            </div>
+
+            <!-- Microsoft -->
+
+            <div class="cert-card">
+
+                <img src="certificates/microsoft-analyst.jpg">
+
+                <h3>Microsoft Security Analyst</h3>
+
+                <p>Microsoft Certification</p>
+
+            </div>
+
+            <!-- Tech Mahindra -->
+
+            <div class="cert-card">
+
+                <img src="certificates/techmahindra-cybersecurity.jpg">
+
+                <h3>Cybersecurity Course</h3>
+
+                <p>Tech Mahindra Foundation</p>
+
+            </div>
+
+            <!-- OPSWAT -->
+
+            <div class="cert-card">
+
+                <img src="certificates/opswat-cip.jpg">
+
+                <h3>Introduction to Critical Infrastructure Protection</h3>
+
+                <p>OPSWAT Academy</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section class="projects reveal" id="projects">
+
+        <h2 class="section-title">
+
+            My Projects
+
+        </h2>
+
+        <div class="project-grid">
+
+            <!-- WEB VAPT -->
+
+            <div class="project-card">
+
+                <div class="status">Active</div>
+
+                <h3>Web VAPT Testing Tool</h3>
+
+                <p>
+
+                    Automated vulnerability assessment platform
+                    designed to identify OWASP Top 10 vulnerabilities,
+                    perform security scanning, and generate detailed reports.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#Python</span>
+                    <span>#VAPT</span>
+                    <span>#OWASP</span>
+                    <span>#Security</span>
+
+                </div>
+
+            </div>
+
+            <!-- PHISHLITE -->
+
+            <div class="project-card">
+
+                <div class="status">Stable</div>
+
+                <h3>PhishLite 2.0</h3>
+
+                <p>
+
+                    Advanced phishing detection and awareness platform
+                    capable of analyzing suspicious URLs, emails,
+                    and phishing indicators using automation techniques.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#Phishing</span>
+                    <span>#Detection</span>
+                    <span>#Cybersecurity</span>
+                    <span>#Automation</span>
+
+                </div>
+
+            </div>
+
+            <!-- SIEM -->
+
+            <div class="project-card">
+
+                <div class="status">Active</div>
+
+                <h3>SIEM Security Monitoring</h3>
+
+                <p>
+
+                    Security Information and Event Management (SIEM)
+                    solution for centralized log monitoring,
+                    alert analysis, threat detection, and incident investigation.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#SIEM</span>
+                    <span>#Splunk</span>
+                    <span>#SOC</span>
+                    <span>#ThreatDetection</span>
+
+                </div>
+
+            </div>
+
+            <!-- IDS -->
+
+            <div class="project-card">
+
+                <div class="status">Active</div>
+
+                <h3>Intrusion Detection System</h3>
+
+                <p>
+
+                    Real-time Intrusion Detection System (IDS)
+                    for monitoring network traffic,
+                    detecting malicious activities,
+                    and identifying suspicious attack patterns.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#IDS</span>
+                    <span>#NetworkSecurity</span>
+                    <span>#Detection</span>
+                    <span>#Cybersecurity</span>
+
+                </div>
+
+            </div>
+
+            <!-- HONEYPOT -->
+
+            <div class="project-card">
+
+                <div class="status">Stable</div>
+
+                <h3>Honeypot Environment</h3>
+
+                <p>
+
+                    Cybersecurity honeypot setup designed
+                    to monitor attacker behavior,
+                    capture malicious activities,
+                    and analyze threat intelligence.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#Honeypot</span>
+                    <span>#ThreatIntel</span>
+                    <span>#Monitoring</span>
+                    <span>#Security</span>
+
+                </div>
+
+            </div>
+
+            <!-- SIEM LITE -->
+
+            <div class="project-card">
+
+                <div class="status">Stable</div>
+
+                <h3>SIEM Lite</h3>
+
+                <p>
+
+                    Lightweight SIEM platform developed
+                    for centralized log collection,
+                    security monitoring,
+                    and basic threat analysis in lab environments.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>#SIEM</span>
+                    <span>#Logs</span>
+                    <span>#SecurityMonitoring</span>
+                    <span>#CyberLab</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ARTICLES -->
+
+    <section class="articles reveal" id="articles">
+
+        <h2 class="section-title">
+
+            Medium Articles
+
+        </h2>
+
+        <div class="article-grid">
+
+            <a href="https://medium.com/@subhamsahoo2307" target="_blank" class="article-card">
+
+                <h3>
+                    Penetration Testing on Metasploitable-2
+                </h3>
+
+                <p>
+                    Practical penetration testing walkthrough and vulnerability analysis.
+                </p>
+
+            </a>
+
+            <a href="https://medium.com/@subhamsahoo2307" target="_blank" class="article-card">
+
+                <h3>
+                    Running Suricata in IPS Mode Using NFQUEUE
+                </h3>
+
+                <p>
+                    Building an intrusion prevention system using Suricata.
+                </p>
+
+            </a>
+
+            <a href="https://medium.com/@subhamsahoo2307" target="_blank" class="article-card">
+
+                <h3>
+                    Boss Of Splunk Walkthrough
+                </h3>
+
+                <p>
+                    SIEM monitoring and cybersecurity threat analysis walkthrough.
+                </p>
+
+            </a>
+
+            <a href="https://medium.com/@subhamsahoo2307/ejpt-exam-preparation-and-crack-exam-6f457371722b"
+                target="_blank" class="article-card">
+
+                <h3>
+                    eJPT Exam Preparation and Crack Exam
+                </h3>
+
+                <p>
+                    Complete preparation strategy, labs, methodology,
+                    and tips for successfully passing the eJPT certification exam.
+                </p>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Subham Sahoo | Penetration Tester
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
